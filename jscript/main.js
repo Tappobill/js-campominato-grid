@@ -16,5 +16,7 @@ for (let i = 1; i <= 100; i++) {
         console.log(this);
         this.classList.toggle("active");
     })
+
+    griglia.append(elementoCorrente);
     
 }
