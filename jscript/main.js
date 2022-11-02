@@ -1,5 +1,4 @@
 const griglia = document.getElementById("griglia");
-console.log(griglia);
 
 function creazioneQuadrato(num) {
     const div = document.createElement("div");
@@ -20,3 +19,9 @@ for (let i = 1; i <= 100; i++) {
     griglia.append(elementoCorrente);
     
 }
+
+function generaGriglia(){
+    let gri= document.getElementById("griglia-principale")
+    gri.classList.remove("d-none")
+}
+
